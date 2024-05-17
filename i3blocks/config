@@ -1,0 +1,18 @@
+
+[volume-pulseaudio]
+command=~/.config/i3blocks/scripts/volume-pulseaudio/volume-pulseaudio
+interval=5
+signal=1
+
+[battery2]
+command=~/.config/i3blocks/scripts/battery2/battery2
+markup=pango
+interval=30
+
+[time]
+command=date +%T
+interval=1
+
+[shutdown_menu]
+full_text=Quit
+command=~/.config/i3blocks/scripts/shutdown_menu/shutdown_menu
